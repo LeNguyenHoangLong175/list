@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: auto;
+    margin: 0 auto;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(174, 161, 161);
+}
+.basee{
+    width: 1000px;
+    height: 200px;
+    background-color: darkcyan;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+}
+#timkiem{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(134, 174, 191);
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    transition: all 4s ease;
+}
+#xacnhan{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(139, 170, 183);
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    color: whitesmoke;
+    transition: all 3s ease;
+}
+#xacnhan:active{
+    transform:translate3d(10px)
+}
+#timkiem::placeholder{
+   color: whitesmoke;
+  text-align: center;
+  
+}
+#timkiem:active{
+    transform: matrix3d(5px);
+}
+#datimkiem{
+    position: relative;
+    width: 750px;
+    height: 300px;
+    background-color: rgb(42, 169, 126);
+    top: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+#chuanhap{
+    position: absolute;
+    bottom: 200px;
+    width: 400px;
+    height: 250px;
+    left: 275px;
+}
+#chuanhap > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;   
+}
+#datimkiem {
+    overflow-x: auto;
+    overflow-y:auto;
+    
+}
+#list{
+    list-style: none;
+    left: 50px;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+#xoa{
+    background-color: rgb(167, 231, 231);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+#list > li{
+    width: 400px;
+}
